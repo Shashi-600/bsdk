@@ -1,0 +1,337 @@
+<html> 
+	<head> 
+		<title> </title>
+		<style type="text/css">
+			#mainarea{
+				width:1200px;
+				height:1500px;
+				background:#EADCB9;
+				}
+			#toparea1{
+				width:1200px;
+				height:150px;
+				background:green;
+				}
+			#logoarea{
+				width:150px;
+				height:150px;
+				background:red;
+				float:left;
+			}
+			#titlearea{
+				width:1050px;
+				height:150px;
+				background:black;
+				float:left;
+			}
+			#toparea2{
+				width:1200px;
+				height:40px;
+				background:pink;
+				float : left;
+				}
+			#toparea2 ul{
+				
+				list-style:none;
+				margin:0;
+				padding:0;
+				
+			}
+			
+			#toparea2 ul li a:link, #toparea2  ul li a:visited{
+				color:red;
+				text-decoration:none;
+				background:yellow;
+				padding:10px 25px;
+				display:block;
+				border-bottom:solid 1px #000;
+			}
+			#toparea2 ul li a:hover{
+				color:yellow;
+				background:red;
+			}
+			#toparea2 ul li{
+				float:left;
+			}
+			#toparea2 ul li ul{
+				display:none;
+			}
+			#toparea2  ul li:hover ul{
+				display:block;
+				position:absolute;
+				z-index:100;
+			}
+			#toparea2  ul li:hover ul li{
+				float:none;
+			}
+			#toparea2 ul li ul:last-child a:link,  #toparea2 ul li ul:last child a:visited{
+				border:0;
+			}
+			#toparea3{
+				width:1000px;
+				height:200px;
+				background:#fed;
+				padding-top:50px;
+				padding-bottom:50px;
+				padding-left:100px;
+				padding-right:100px;
+				}
+			#toparea3 p{
+				color:green;
+			}
+			#toparea3 p:first-child{
+				color:black;
+			}
+			#toparea3 p:nth-child(4n){
+				color:brown;
+			}
+			#toparea3 p:last-child{
+				color:blue;
+			}
+			#area{
+				width:1000px;
+				height:200px;
+				background:#454889;
+				}
+			#toparea4{
+				width:1200px;
+				height:300px;
+				background:yellow;
+				}
+			#subdivide1{
+				width:600px;
+				height:300px;
+				background:yellow;
+				float:left;
+				}
+			#toparea4 h1{
+					color:red;
+				}
+			#toparea4 p{
+					color:green;
+					/*font-weight:200;
+					font-size:20px;*/
+					font:bold 14px 'sarif',helvetica;
+					font-style:oblique;
+					text-decoration:underline overline line-through;
+					/*text-transform:capitalize;*/
+					text-transform:upper case;
+					text-align:center;
+					letter-spacing:10px;
+					word-spacing:50px;
+					/*word-spacing:-50px;
+					word-spacing:50px;*/
+					line-height:70px;
+				}
+			#subdivide2{
+				width:600px;
+				height:300px;
+				background:#eac;
+				float:right;
+				}
+			#subdivide2 a:link{
+				color:red;
+				text-decoration:none;
+				padding:50px 100px;
+				border-radius:5px;
+			}
+			#subdivide2 a:visited{
+				color:black;
+				
+			}
+			#toparea5{
+				width:1200px;
+				height:300px;
+				background:blue;
+				}
+			#subdivide3{
+				width:400px;
+				height:300px;
+				background:#caf;
+				float:left;
+				}
+			#subdivide4{
+				width:400px;
+				height:300px;
+				background:#dfa;
+				float:left;
+				}
+			#subdivide5{
+				width:400px;
+				height:300px;
+				background:#cde;
+				float:right;
+				}
+			#toparea6{
+				width:1200px;
+				height:410px;
+				background:orange;
+				}
+			#subdivide6{
+				width:300px;
+				height:410px;
+				background:red;
+				float:left;
+				}
+			#subdivide6 ul{
+				/*list-style-type:circle;*/
+				/*list-style-type:upper-roman;*/
+				/*list-style-image:url('arr.png');
+				list-style-position:inside*/
+				list-style:circle url('arr.png') inside;
+			}
+			#subdivide7{
+				width:300px;
+				height:410px;
+				background:pink;
+				float:left;
+				}
+			#subdivide7 ul{
+					
+					}
+			#subdivide7 a:link, #subdivide7 a:visited{
+				color:red;
+				text-decoration:none;
+			}
+			#subdivide7 a:hover{
+				text-decoration:underline;
+			}
+			#subdivide8{
+				width:300px;
+				height:410px;
+				background:green;
+				float:left;
+				}
+			#subdivide8 ul{
+				/*list-style-type:disc;*/
+				/*list-style-type:decimal-leading-zero;*/
+				list-style:none;
+				margin:0;
+				padding:0;
+				
+			}
+			
+			#subdivide8 ul li a:link, #subdivide7 ul li a:visited{
+				color:red;
+				text-decoration:none;
+				background:yellow;
+				padding:10px 25px;
+				display:block;
+				border-bottom:solid 1px #000;
+			}
+			#subdivide8 ul li:last-child a:link, #subdivide7 ul li:last-child a:visited{
+				border : 0;
+			}
+			#subdivide8 ul li a:hover{
+				color:yellow;
+				background:red;
+			}
+			#subdivide9{
+				width:300px;
+				height:410px;
+				background:#a45;
+				float:left;
+				}
+			#subdivide9 ul{
+				list-style-type:decimal;
+				
+			}
+		</style>
+	</head>
+	<body> 
+		<div id="mainarea">
+			<div id="toparea1">
+				<div id="logoarea">
+				</div>
+				<div id="titlearea">
+				</div>
+			</div>
+			<div id="toparea2">
+				<ul>
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">GALLERY</a></li>
+						<li><a href="#">CONTACT</a></li>
+						<li><a href="#">ABOUT</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">products</a>
+							<ul>
+								<li><a href="#">product 1</a></li>
+								<li><a href="#">product 2</a></li>
+								<li><a href="#">product 3</a></li>
+							</ul>
+						</li>
+					</ul>
+			</div>
+			<div id="toparea3">
+				<p>
+					Government Polytechnic Kharsawan is a thirteenth P06. The Institution is offering Diploma Programmes in Computer Engg., Electronics & Communication Engg. and Electricals Engg. Presently the Institution building is in the 5 acres of land and there is additional 5 acres of land where complete building has to be developed.	
+				</p>
+				<p>
+					ring Diploma Programmes in Computer Engg., Electronics & Communication Engg. and Electricals Engg. Presently the Institution building is in the 5 acres of land and there is additional 5 acres of land where complete building has to be developed.
+				</p>
+				<p>
+					Government Polytechnic Kharsawan is a thirteenth Polytechnic in the state of Jharkhand. It came into existence in the year 2006. The Institution is offering Diploma Programmes in Computer Engg., Electronics & Communication Engg. and Electricals Engg. Presently the Institution building is in the 5 acres of land and there is additional 5 acres of land where complete building has to be developed.
+				</p>
+				<p>
+					Government Polytechnic Kh  has to be developed.
+				</p>
+				<p>Government Polytechnic Kharsawan is a thirteenth Polytechnic in the state of Jharkhand complete building has t</p>
+			</div>
+			<div id="toparea4">
+				<div id="subdivide1">
+					<h1>HELLO</h1>
+					<p>my name is shashi kumar mandal i am from giridih district</p>
+				</div>
+				<div id="subdivide2">
+					<p1><a href="https://www.google.com">google</a></p>
+				</div>
+			</div>
+			<div id="toparea5">
+				<div id="subdivide3">
+				</div>
+				<div id="subdivide4">
+				</div>
+				<div id="subdivide5">
+				</div>
+			</div>
+			<div id="toparea6">
+				<div id="subdivide6">
+					<ul >
+						<li>HOME</li>
+						<li>ABOUT</li>
+						<li>GALLERY</li>
+						<li>CONTACT</li>
+						<li>FAQ</li>
+					</ul>
+				</div>
+				<div id="subdivide7">
+					<ul>
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">GALLERY</a></li>
+						<li><a href="#">CONTACT</a></li>
+						<li><a href="#">ABOUT</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+				</div>
+				<div id="subdivide8">
+					<ul>
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">GALLERY</a></li>
+						<li><a href="#">CONTACT</a></li>
+						<li><a href="#">ABOUT</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+				</div>
+				<div id="subdivide9">
+					<ul>
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">GALLERY</a></li>
+						<li><a href="#">CONTACT</a></li>
+						<li><a href="#">ABOUT</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
